@@ -1,0 +1,21 @@
+#pragma once
+
+// ===== WIFI =====
+#define WIFI_SSID "your_wifi_ssid"
+#define WIFI_PASS "your_wifi_password"
+
+// fallback AP
+#define AP_SSID "SoilSensor-ESP32"
+#define AP_PASS "12345678"
+
+// ===== RS485 =====
+#define PIN_RX   16
+#define PIN_TX   17
+#define PIN_DERE 4
+
+#define SLAVE_ID 0x01
+#define MODBUS_BAUD 9600
+
+// ===== TIMEOUTS =====
+#define WIFI_CONNECT_TIMEOUT_MS 15000
+#define MODBUS_TIMEOUT_MS 450
